@@ -10,12 +10,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#header {
+.header {
   width: 100%;
   height: 60px;
 }
 
-#header .container {
+.header .container {
   width: 1140px;
   margin: 0px auto;
   height: 60px;
@@ -30,7 +30,7 @@ body {
           justify-content: space-between;
 }
 
-#header .container .logo a {
+.header .container .logo a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,18 +41,18 @@ body {
           align-items: center;
 }
 
-#header .container .logo a img {
+.header .container .logo a img {
   margin-right: 10px;
   height: 40px;
 }
 
-#header .container .contact-info ul {
+.header .container .contact-info ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#header .container .contact-info ul li {
+.header .container .contact-info ul li {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,12 +63,12 @@ body {
   margin: 0 30px;
 }
 
-#header .container .contact-info ul li .contact-icon {
+.header .container .contact-info ul li .contact-icon {
   margin: 15px;
   color: #3b9cf7;
 }
 
-#header .container .contact-info ul li a {
+.header .container .contact-info ul li a {
   text-decoration: none;
   color: white;
   background-color: #3b9cf7;
@@ -78,18 +78,18 @@ body {
   transition: 0.5s;
 }
 
-#header .container .contact-info ul li a:hover {
+.header .container .contact-info ul li a:hover {
   background-color: #0c0052;
 }
 
-#nav {
+.nav {
   width: 100%;
   background-color: #0c0052;
   height: 50px;
   color: white;
 }
 
-#nav .container {
+.nav .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,52 +104,52 @@ body {
   margin: 0 auto;
 }
 
-#nav .container .menu ul {
+.nav .container .menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#nav .container .menu ul li {
+.nav .container .menu ul li {
   list-style: none;
   margin: 0 30px;
 }
 
-#nav .container .menu ul li a {
+.nav .container .menu ul li a {
   text-decoration: none;
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-#nav .container .menu ul li a:hover {
+.nav .container .menu ul li a:hover {
   color: #3b9cf7;
 }
 
-#nav .container .search {
+.nav .container .search {
   border: solid 1px rgba(128, 128, 128, 0.384);
   border-radius: 50px;
   padding: 10px 25px;
 }
 
-#nav .container .search input {
+.nav .container .search input {
   border: none;
   background-color: #0c0052;
   outline: none;
   color: white;
 }
 
-#nav .container .search a i {
+.nav .container .search a i {
   cursor: pointer;
   color: white;
 }
 
-#banner img {
+.banner img {
   width: 100%;
   height: auto;
 }
 
-#feature .container {
+.feature .container {
   width: 900px;
   margin: 0 auto;
   display: -webkit-box;
@@ -161,20 +161,20 @@ body {
   color: dimgray;
 }
 
-#feature .container .left {
+.feature .container .left {
   margin: 30px 20px;
 }
 
-#feature .container .left h2 {
+.feature .container .left h2 {
   color: #0c0052;
   margin-bottom: 20px;
 }
 
-#feature .container .left p {
+.feature .container .left p {
   margin-bottom: 20px;
 }
 
-#feature .container .left .cards-container {
+.feature .container .left .cards-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,7 +185,7 @@ body {
           justify-content: space-between;
 }
 
-#feature .container .left .cards-container .card {
+.feature .container .left .cards-container .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,54 +208,54 @@ body {
   cursor: pointer;
 }
 
-#feature .container .left .cards-container .card i {
+.feature .container .left .cards-container .card i {
   color: #0c0052;
   padding: 5px 0;
 }
 
-#feature .container .left .cards-container .card h3 {
+.feature .container .left .cards-container .card h3 {
   color: #0c0052;
   padding: 5px 0;
 }
 
-#feature .container .left .cards-container .card p {
+.feature .container .left .cards-container .card p {
   text-align: center;
   padding: 5px 0;
 }
 
-#feature .container .left .cards-container .card:hover {
+.feature .container .left .cards-container .card:hover {
   background-color: #3b9cf7;
   color: white;
   border-radius: 10px;
 }
 
-#feature .container .left .cards-container .card:hover h3 {
+.feature .container .left .cards-container .card:hover h3 {
   color: white;
 }
 
-#feature .container .left .cards-container .card:hover i {
+.feature .container .left .cards-container .card:hover i {
   color: white;
 }
 
-#feature .container .right {
+.feature .container .right {
   margin: 30px 20px;
   padding: 10px;
   border: 1px solid #8791be;
 }
 
-#feature .container .right img {
+.feature .container .right img {
   width: 100%;
 }
 
-#feature .container .right h3 {
+.feature .container .right h3 {
   margin: 10px 0;
 }
 
-#feature .container .right p {
+.feature .container .right p {
   margin-bottom: 20px;
 }
 
-#feature .container .right button {
+.feature .container .right button {
   background-color: #3b9cf7;
   cursor: pointer;
   color: white;
@@ -266,7 +266,7 @@ body {
   transition: 0.5s;
 }
 
-#feature .container .right button:hover {
+.feature .container .right button:hover {
   background-color: #0c0052;
 }
 
@@ -365,18 +365,18 @@ body {
   color: white;
 }
 
-#project {
+.project {
   width: 100%;
   text-align: center;
   margin: 50px 0;
   color: dimgray;
 }
 
-#project h2 {
+.project h2 {
   color: #0c0052;
 }
 
-#project img {
+.project img {
   margin-top: 50px;
   width: 100%;
 }
