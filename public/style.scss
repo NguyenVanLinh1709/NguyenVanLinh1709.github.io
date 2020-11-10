@@ -283,9 +283,22 @@ body {
     h2 {
         color: rgb(12, 0, 82);
     }
-    img {
+    .container-img {
         margin-top: 50px;
+        display: flex;
         width: 100%;
+        flex-wrap: wrap;
+        img {
+            width: 25%;
+            transition: 0.5s;
+            opacity: 0.75;
+            &:hover {
+                transform: translate(0, -10px);
+                opacity: 1;
+                box-shadow: 10px 20px 20px rgb(66, 66, 66);
+                z-index: 1;
+            }
+        }
     }
 }
 

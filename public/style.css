@@ -381,9 +381,30 @@ body {
   color: #0c0052;
 }
 
-.project img {
+.project .container-img {
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project .container-img img {
+  width: 25%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+
+.project .container-img img:hover {
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+  opacity: 1;
+  -webkit-box-shadow: 10px 20px 20px #424242;
+          box-shadow: 10px 20px 20px #424242;
+  z-index: 1;
 }
 
 .recent-blog {
